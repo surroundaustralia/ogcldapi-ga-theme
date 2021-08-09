@@ -1,0 +1,18 @@
+:root {
+    --link-colour: #326297;
+    --btn-hover-colour: #153d73;
+    --header-band-colour: #222222;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-content {
+    width: 100%;
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    display: flex;
+}
