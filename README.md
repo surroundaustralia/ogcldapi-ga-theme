@@ -1,13 +1,18 @@
-# OGC API Theming
-This repo contains static files for branding department-specific OGC API instances.
+# OGC LD API Theming, for GA
+This repo contains static files for branding Australian Bureau of Statistics (ABS) and Geoscience Australia (GA) instnaces of the [OGC LD API](https://github.com/surroundaustralia/ogcldapi).
 
-These files are stored in an S3 bucket for the API to retrieve via a URL stored in environment variables.
+These files are stored in an S3 bucket for instnaces of API to retrieve via a URL stored in environment variables.
 
 ## Theme Instances
-- GA Theme
-    - Floods
-    - Placenames
-    - Facilities
-    - Power Infrastructure
+Temporary implementations of these themes are online at:
+
 - ABS Theme
-    - ASGS 2016
+    - [ASGS 2016](http://asgs.surroundaustralia.com/)
+- GA Theme
+    - [Facilities](http://facilities.surroundaustralia.com/)
+    - [Floods](http://floods.surroundaustralia.com/)
+    - [Placenames](http://placenames.surroundaustralia.com/)    
+    - [Power Infrastructure](http://power-infrastructure.surroundaustralia.com/)
+
+## More info
+See the [OGC LD API](https://github.com/surroundaustralia/ogcldapi) for more infromation about these theme's use, contact info for the creator etc.
